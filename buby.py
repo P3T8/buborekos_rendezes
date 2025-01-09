@@ -1,5 +1,3 @@
-
- 
 def bubble_sort(arr):
     n = len(arr)
     for i in range(n):
@@ -13,7 +11,7 @@ N = int(input("Adja meg az elemek számát: "))
 # Létrehozza az adott elemszámú tömböt
 T = []
 for i in range(N):
-    elem = int(input(f"Adja meg a(z) {i+1}. elemet: "))
+    elem = input(f"Adja meg a(z) {i+1}. elemet: ")
     T.append(elem)
 
 # Sorba rendezi a tömböt
